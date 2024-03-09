@@ -12,11 +12,11 @@ Jia Qin, Youyi Zheng, and Kun Zhou. 2022. Motion In-betweening via Two-stage Tra
 
 4. 安装 [PyTorch](https://pytorch.org). 代码在 Python3.8, PyTorch-1.8.2 测试过.
 
-## Run Baseline Benchmark
+## 运行 Baseline Benchmark
 
-Under `scripts` folder, run `python run_baseline_benchmark.py lafan1_context_model`
+在 `scripts` 文件夹下, 运行 `python run_baseline_benchmark.py lafan1_context_model`
 
-This will give you the same baseline results shown in [Robust Motion In-betweening](https://montreal.ubisoft.com/en/automatic-in-betweening-for-faster-animation-authoring/) (Harvey et al., 2020) paper. If the LAFAN1 dataset has been properly set up, you are expected to see the following results:
+这会给你 [Robust Motion In-betweening](https://montreal.ubisoft.com/en/automatic-in-betweening-for-faster-animation-authoring/) (Harvey et al., 2020) 论文中展示的相同的 baseline 结果. 如果 LAFAN1 数据集适当地设置, 你将期望看到下面的结果:
 
 ```bash
 trans:  5
