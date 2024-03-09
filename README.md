@@ -1,20 +1,16 @@
 # Motion In-betweening via Two-stage Transformers
 
-![representative_image](./figures/representative_image.jpg)
+Jia Qin, Youyi Zheng, and Kun Zhou. 2022. Motion In-betweening via Two-stage Transformers. ACM Trans. Graph. 41, 6, Article 184 (December 2022), 16 pages. https://doi.org/10.1145/3550454.3555454
 
-Jia Qin, Youyi Zheng, and Kun Zhou. 2022. Motion In-betweening via Two-stage
-Transformers. ACM Trans. Graph. 41, 6, Article 184 (December 2022),
-16 pages. https://doi.org/10.1145/3550454.3555454
+## 开始
 
-## Getting Started
+1. 下载 [LAFAN1](https://github.com/ubisoft/ubisoft-laforge-animation-dataset) 数据集.
 
-1. Download [LAFAN1](https://github.com/ubisoft/ubisoft-laforge-animation-dataset) dataset.
+2. 解压  `lafan1.zip`  到 `datasets` 文件夹.  Bvh 文件应放在 `motion_inbetweening/datasets/lafan1` 文件夹下.
 
-2. Extract  `lafan1.zip`  to `datasets` folder.  Bvh files should be located in `motion_inbetweening/datasets/lafan1` folder.
+3. 从Release页面下载 [预训练模型](https://github.com/victorqin/motion_inbetweening/releases/download/v1.0.0/pre-treained.zip). 解压到 `motion_inbetweening/experiments` 文件夹.
 
-3. Download the [pre-trained models](https://github.com/victorqin/motion_inbetweening/releases/download/v1.0.0/pre-treained.zip) from the Releases Page. Extract it to the `motion_inbetweening/experiments` folder.
-
-4. Install [PyTorch](https://pytorch.org). The code has been tested in Python3.8, PyTorch-1.8.2.
+4. 安装 [PyTorch](https://pytorch.org). 代码在 Python3.8, PyTorch-1.8.2 测试过.
 
 ## Run Baseline Benchmark
 
